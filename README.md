@@ -1,29 +1,32 @@
-نمای کلی
-
-این پروژه یک پروژه تمرینی است که با استفاده از الگوی MVC پیاده‌سازی شده است. از Entity Framework Core برای اضافه کردن (migrations) و کوئری زدن به SQL Server استفاده شده است. برای نمایش Viewها از Razor Pages استفاده شده و بخش مدیریت (admin) با استفاده از ASP.NET Core Identity برای مدیریت و احراز هویت کاربران پیاده‌سازی شده است.
-
-امکانات
-
-مدیریت محصولات در بخش مدیریت: افزودن، حذف و ویرایش محصولات.
-
-احراز هویت کاربران: ورود و ثبت‌نام امن کاربران.
-
-نمایش محصول: نمایش جزئیات محصول و افزودن به سبد خرید.
-
-مدیریت کاربران (admin): افزودن، حذف و ویرایش نقش‌ها و دسترسی‌های کاربران.
-
-نمایش دسته‌بندی محصولات: نمایش محصولات دسته‌بندی‌شده.
-
-سبد خرید: مدیریت محصولات اضافه‌شده، محاسبه مجموع، و امکان حذف اقلام.
+Overview
 
 
+This is a practice project built using the MVC pattern. Entity Framework Core was used for adding migrations and querying the SQL Server database. For rendering the views, Razor Pages were utilized, and the admin section was implemented with ASP.NET Core Identity for user management and authentication.
 
-تکنولوژی‌های استفاده‌شده
 
-ASP.NET Core (برای بخش backend)
+Features
 
-Entity Framework Core (برای تعاملات با پایگاه داده)
 
-SQL Server (برای ذخیره‌سازی داده‌ها)
+-Product management in the admin section: Add, remove, and edit products.
 
-ASP.NET Core Identity (برای احراز هویت و مدیریت کاربران)
+-User authentication: Secure user login and registration.
+
+-Product display: Show product details and allow users to add items to the cart.
+
+-Manage users (admin): Add, remove, and edit user roles and permissions.
+
+-Product categories display: Show categorized products for easy navigation.
+
+-Shopping cart: Manage added products, calculate total, and remove items.
+
+Technologies Used
+
+-ASP.NET Core (for the backend)
+
+-Entity Framework Core (for database interactions)
+
+-SQL Server (for data storage)
+
+-ASP.NET Core Identity (for user authentication and authorization)
+
+
